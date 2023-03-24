@@ -14,5 +14,25 @@ public class GameStoreTest {
         assertTrue(store.containsGame(game));
     }
 
+    @Test
+    void publishGame() {
+    }
+
+    @Test
+    void containsGame() {
+    }
+
+    @Test
+    void addPlayTime() {
+    }
+
+    @Test
+    void getMostPlayer() {
+    }
+
+    @Test
+    void getSumPlayedTime() {
+    }
+
     // другие ваши тесты
 }
