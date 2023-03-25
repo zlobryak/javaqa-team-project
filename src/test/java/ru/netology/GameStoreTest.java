@@ -18,8 +18,11 @@ public class GameStoreTest {
     @Test
     void addPlayTime() {
         store.addPlayTime("Player1", 100);
-    }
+        store.addPlayTime("Player1", 200);
+        store.addPlayTime("Player1", 300);
 
+        assertEquals(100 + 200 + 300, store.getTimePLayed("Player1"));
+    }
     @Test
     void getMostPlayer() {
         store.addPlayTime("Player1", 100);
